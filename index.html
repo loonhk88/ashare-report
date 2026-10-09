@@ -48,6 +48,19 @@ background:#fff;border:1px solid #e3e8f0;border-radius:12px;padding:14px;margin-
 .daylist .dd{font-size:15px;font-weight:700;color:#1b3a5c}
 .daylist .dw{font-size:12px;color:#7a8699;margin-top:2px}
 .daylist .go{font-size:13px;color:#8a97a8}
+/* ── KPI 图表 ── */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:10px 0}
+.kpi{background:#f8fafd;border:1px solid #e3e8f0;border-radius:12px;padding:10px 10px 6px;text-align:center}
+.kpi.wide{grid-column:1/-1;text-align:left}
+.kpi-k{font-size:12px;color:#6b7a8d;margin-bottom:4px;font-weight:600}
+.kpi-svg{width:100%;height:auto;display:block}
+.kpi-val{font-size:26px;font-weight:800}
+.kpi-unit{font-size:11px;fill:#7a8699}
+.kpi-na{font-size:13px;color:#b0b8c4;padding:12px 0}
+.kpi-note{font-size:10.5px;color:#8a97a8;margin-top:2px}
+.chart-title{font-size:13px;font-weight:700;color:#24507d;margin:12px 0 6px}
+.badge-src{display:inline-block;font-size:10.5px;color:#5a6b80;background:#eef2f8;
+border-radius:5px;padding:1px 6px;margin-left:6px;vertical-align:middle}
 @media (max-width:640px){
   body{font-size:14.5px}
   .hero h1{font-size:18px}
@@ -55,10 +68,12 @@ background:#fff;border:1px solid #e3e8f0;border-radius:12px;padding:14px;margin-
   .card{padding:14px 12px}
   table{font-size:12.5px;min-width:420px}
   .kv .item{flex:1 1 100%}
+  .kpis{grid-template-columns:1fr 1fr}
+  .kpi-val{font-size:22px}
 }
 </style></head><body><div class="wrap">
 <div class="hero"><span class="d">历史归档</span><div class="mood">📚</div>
-<h1>A股 收盘复盘</h1><div class="sub">共 1 份报告 · 点击日期查看</div></div>
-<div class="daylist"><a href="./2026-10-08.html"><div><div class="dd">2026-10-08</div><div class="dw">周四 · 收盘复盘</div></div><div class="go">查看 ›</div></a></div>
-<div class="disclaim">仅供参考，不构成投资建议。本页不含持仓与交易记录。</div>
+<h1>A股 收盘复盘</h1><div class="sub">共 2 份报告 · 点击日期查看</div></div>
+<div class="daylist"><a href="./2026-10-09.html"><div><div class="dd">2026-10-09</div><div class="dw">周五 · 收盘复盘</div></div><div class="go">查看 ›</div></a><a href="./2026-10-08.html"><div><div class="dd">2026-10-08</div><div class="dw">周四 · 收盘复盘</div></div><div class="go">查看 ›</div></a></div>
+<div class="disclaim">仅供参考，不构成投资建议。本页为公开行情与推荐记录。</div>
 </div></body></html>
